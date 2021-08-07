@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Vazir";
+    src: url("../fonts/Vazir.eot");
+    src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/Vazir.woff2") format("woff2"),
+      url("../fonts/Vazir.woff") format("woff"),
+      url("../fonts/Vazir.ttf") format("truetype");
+  
+  }
+  @font-face{
+      font-family: "Btitr";
+      src:url(../fonts/BTITRBD.eot) format('eot'),
+      url(../fonts/BTITRBD.woff) format('woff'),
+      url(../fonts/BTITRBD.ttf) format('truetype');
+  }
+  @font-face{
+      font-family: "Bkoodak";
+      src:url(../fonts/BKOODB.eot) format('eot'),
+          url(../fonts/BKOODB.woff) format('woff'),
+          url(../fonts/BKOODB.ttf) format('truetype');
+  }
+  body { 
+    text-align: right !important;
+    line-height: 1.6;
+    background: rgb(240, 239, 239);
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .search-icon{
+    float: inline-end;
+    margin-top:13px;
+    margin-left: 30px;
+    color: bisque;
+    cursor: pointer;
+    font-size: large;
+  }
+  .results-header {
+    height:400px;
+    background:url('../img/results-header.png') no-repeat center center/cover;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: 25px;
+  }
+  .search-box{
+    background: white;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display: none;
+  }
+  .search-box form{
+    position: relative;
+  }
+  .search-box form input{
+    background: transparent;
+    border: none;
+    width: 98%;
+    height: 30px;
+    margin: 8px auto 0 auto;
+    display: block;
+    padding: 0 10px;
+  }
+  .search-box form button{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    background: transparent;
+    border: none;
+    color: #666;
+  
+  }
+  .hadis{ 
+    font-weight: bold;
+    background-color: rgba(0, 3, 5, 0.466);
+    border-radius:50px;
+    margin-top: 30px;
+    color: rgb(225, 238, 248);
+    margin-top:2rem;
+  } 
+  .card{
+    width: 250px;
+    height: 200px;
+    border-radius: 25px;
+    border-radius: 25px;
+    background: #0095b2;
+    box-shadow: 5px 5px 5px;
+  }
+  a{
+    font-family:Vazir ;
+    text-decoration: none;
+    color: #000;
+  }
+  a:hover{
+    text-decoration: none;
+    color: rgb(63, 63, 62);
+  }
+  h6{
+    font-family:Vazir ;
+  }
+@media(max-width:1024px){
+  *{
+    padding: 0;
+   
+  }
+  
+}
